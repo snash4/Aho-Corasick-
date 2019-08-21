@@ -1,7 +1,6 @@
 AhoCorasick - String Searching Algorithm.
 
 SHEIKH NASRULLAH
-UMAR SHAH
 
 INTRODUCTION:
   Aho - Corasick string matching algorithm is a string searching algorithm. It performs fast mulitple keyword
