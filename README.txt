@@ -2,15 +2,17 @@ AhoCorasick - String Searching Algorithm.
 
 SHEIKH NASRULLAH
 
-INTRODUCTION:
-  Aho - Corasick string matching algorithm is a string searching algorithm. It performs fast mulitple keyword
+## INTRODUCTION:
+  ```Aho - Corasick string matching algorithm is a string searching algorithm. It performs fast mulitple keyword
   search across the text. It constructs a finite state maching that resembles a trie with additional links 
   between the various internal nodes. These additional links allow fast transitions between failed pattern matches.
+  ```
 
-  It's described in the classic paper 'Efficient string matching: an aid to bibliographic search':
+## Paper
+```  It's described in the classic paper 'Efficient string matching: an aid to bibliographic search':
 
     http://portal.acm.org/citation.cfm?id=360855&dl=ACM&coll=GUIDE
-
+```
   
 USAGE::
   import ahocorasick
