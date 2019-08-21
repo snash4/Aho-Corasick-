@@ -9,13 +9,14 @@ SHEIKH NASRULLAH
   ```
 
 ## Paper
-```  It's described in the classic paper 'Efficient string matching: an aid to bibliographic search':
+```
+It's described in the classic paper 'Efficient string matching: an aid to bibliographic search:
 
     http://portal.acm.org/citation.cfm?id=360855&dl=ACM&coll=GUIDE
 ```
   
-USAGE::
-  import ahocorasick
+## USAGE::
+  ```import ahocorasick
   tree.add_keyword("he", 1)        // Adds keywords with their ID's into the tree  
   tree.add_keyword("she",2)
   tree.add_keyword("his", 3)
@@ -24,7 +25,7 @@ USAGE::
 
   search_result = tree.start_match(string)  // Starts the search of string in tree. Returns the first MatchResult.
   next_result = tree.next_match(sr)         // Starting from the previous match, it Searches for the next match
-
+```
 
   RELEASES ::
     The package contains three classes::
